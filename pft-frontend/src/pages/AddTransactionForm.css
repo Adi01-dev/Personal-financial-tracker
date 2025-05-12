@@ -1,0 +1,85 @@
+.add-transaction-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .add-transaction-container h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-transaction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .add-transaction-form input,
+  .add-transaction-form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: border-color 0.2s;
+  }
+  
+  .add-transaction-form input:focus,
+  .add-transaction-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-transaction-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-transaction-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: 500;
+  }
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #007bff;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+    color: #0056b3;
+  }
+  
+  
